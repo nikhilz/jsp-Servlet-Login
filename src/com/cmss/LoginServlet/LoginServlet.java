@@ -28,6 +28,7 @@ public class LoginServlet extends HttpServlet {
 			
 			HttpSession session=request.getSession();
 					
+			
 				session.getId();
 			
 			request.setAttribute("uname", uname);
